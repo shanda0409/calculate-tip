@@ -1,0 +1,117 @@
+* {
+  font-family: 'Cabin', sans-serif;
+  color: white;
+}
+
+body {
+  background: #68183f;
+  font-weight: 700;
+}
+
+/* for selection color */
+::-moz-selection { /* Code for Firefox */
+  color: #3a0d23;
+  background: white;
+}
+
+::selection {
+  color: #3a0d23;
+  background: white;
+}
+/* end for selection color */
+
+.wrapper {
+  height: 525px;
+  width: 360px;
+  color: white;
+  background: #3a0d23;
+  border-radius: 1rem;
+  padding: 1.2rem;
+  margin: 50px auto;
+}
+
+#appHeader{
+  text-align: center;
+}
+#topContainer {
+  margin-top: 5rem;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.inputContainer {
+  background: #220815;
+  border-radius: 1.4rem;
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+#billTotalInput,
+#tipInput {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+.buttonContainer {
+  background: #220815;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.splitButton {
+  background: none;
+  border: none;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+}
+
+.splitButton {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.buttonText {
+  color: #ffffff !important;
+  font-size: 1.1rem !important;
+}
+
+.splitAmount {
+  font-size: 1.2rem;
+  margin: 0.6rem;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.total {
+  font-size: 2rem;
+}
